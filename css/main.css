@@ -740,7 +740,7 @@ img {
 
 .socials__icons {
   display: flex;
-  fill: #FFFFFF;
+  fill: #ffffff;
   gap: 10px;
 }
 
@@ -757,8 +757,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials__icon-circle:hover, .socials__icon-circle:active {
-  --color6: var(--button-font-color);
-  --color6: var(--selection-color);
+  fill: var(--button-font-color);
+  background-color: var(--selection-color);
 }
 
 .newsletter__text {
