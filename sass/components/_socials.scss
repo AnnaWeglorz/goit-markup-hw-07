@@ -29,9 +29,9 @@ margin-bottom: 20px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-.socials__icon-circle--active:hover,
-.socials__icon-circle--active:active {
+&:hover,
+&:active {
   --color6: var(--button-font-color);
   --color6: var(--selection-color);
+}
 }
